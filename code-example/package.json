@@ -1,0 +1,23 @@
+{
+  "name": "code-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcuskirsch/what-the-hell-is-typescript.git"
+  },
+  "keywords": [
+    "typescript",
+    "presentation"
+  ],
+  "author": "Marcus Kirsch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcuskirsch/what-the-hell-is-typescript/issues"
+  },
+  "homepage": "https://github.com/marcuskirsch/what-the-hell-is-typescript#readme",
+  "dependencies": {
+    "typescript": "^3.6.4"
+  }
+}

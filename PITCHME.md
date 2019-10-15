@@ -2,29 +2,51 @@
 
 ---
 
-- is a modern age Javascript development language.
-- is a statically compiled language to write clear and simple Javascript code
-- provides optional static typing, classes, and interface
-- for a large JavaScript project adopting Typescript can bring you more robust software and easily deployable with a regular JavaScript application
-
-
----?color=linear-gradient(180deg, white 75%, black 25%)
-@title[Starts and ends with JavaScript]
-
----
+- released for public use in October 2012
+- developed by Microsoft
+- completely open sourced on GitHub
+- subset of JavaScript
+- transpiled to JavaScript
 
 ## TypeScript vs. JavaScript
 
 ---
 
-## What is better?
+- static vs dynamic typings
+  - static typing allows developers to detect the bugs as writing the scripts
+- object-oriented concepts (Interface, Modules, Generics, Classes)
 
-If an experienced developer is working on relatively small coding projects, then JavaScript is ideal. However, if you have knowledge and expertise development team, then Typescript is a most preferred option.
 
----?color=linear-gradient(180deg, white 75%, black 25%)
-@title[What is better?]
+## Why TypeScript?
+
+---
+
+- for large codebase, the overall performance of Typescript is far better than Javascript and ES6
+- it offers better productivity and maintainability for developers
+- integration with IDE VS Code provides better code navigation and catching bugs before compilation
+- static typing, object-oriented concepts and additional features over ES6 help the developer to understand the problems in real time
+- code easier to understand, increase the performance
+
+
+## Why not flow?
+
+```
+HR: Hi, we use X, Y, Z, and Flow for this project
+Dev: Flow? Why not TypeScript?
+HR: Oh, are kidding me? :facepalm:
+```
+
+---
+
+- types are mostly shipped with the package (no extra flow type library)
+- unfixed bugs (e.g. cannot annotate `this` - typing is lost there)
+- Plugins for IDE's are buggy and unreliable for flow
+- first-class TypeScript support for VSCode (intellisense, type-checking, and autocomplete out of the box)
+
 
 ## Code Example
+
+---
 
 ```
 console.log('Hello TypeScript');
