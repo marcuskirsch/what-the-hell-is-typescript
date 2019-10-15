@@ -35,7 +35,7 @@
 
 ---
 
-## Why not flow?
+## Why not use flow?
 
 
 ```
